@@ -1,0 +1,165 @@
+Xcursor.theme: capitaine-cursors
+
+Xcursor.size: 18
+
+! also set with lxappearance and double check the following:
+
+! /usr/share/icons/default/index.theme
+
+! ~/.icons/default/index.theme
+
+! ~/.config/gtk-3.0/settings.ini
+
+! ~/.gtkrc-2.0
+
+URxvt.termName: xterm-256color
+
+! URxvt.font: xft:Fantasque Sans Mono:size=15
+
+!clickable urls
+
+URxvt.perl-ext-common: default,matcher,resize-font,selection-to-clipboard,font-size
+
+URxvt.url-launcher: /usr/bin/xdg-open
+
+URxvt.matcher.button: 1
+
+
+*background: #000000
+
+*foreground: #ffffff
+
+! Black + DarkGrey
+
+*color0:  #282828
+
+*color8:  #928374
+
+! DarkRed + Red
+
+*color1:  #cc241d
+
+*color9:  #fb4934
+
+! DarkGreen + Green
+
+*color2:  #98971a
+
+*color10: #b8bb26
+
+! DarkYellow + Yellow
+
+*color3:  #d79921
+
+*color11: #fabd2f
+
+! DarkBlue + Blue
+
+*color4:  #458588
+
+*color12: #83a598
+
+! DarkMagenta + Magenta
+
+*color5:  #b16286
+
+*color13: #d3869b
+
+! DarkCyan + Cyan
+
+*color6:  #689d6a
+
+*color14: #8ec07c
+
+! LightGrey + White
+
+*color7:  #a89984
+
+*color15: #ebdbb2
+
+! Fonts
+
+! Inconsolata
+
+URxvt.font: xft:Hack-Regular:pixelsize=14.5
+
+URxvt.boldFont: xft:Hack-Regular:pixelsize=14.5
+
+URxvt.letterSpace: -2
+
+URxvt.resize-font.smaller: C-Down
+
+URxvt.resize-font.bigger: C-Up
+
+Xft.dpi: 96
+
+Xft.antialias: true
+
+Xft.rgba: rgb
+
+Xft.hinting: true
+
+Xft.hintstyle: hintslight
+
+
+! Fonts
+! =====
+! URxvt.font: xft:Monospace:size=12
+URxvt.allow_bold: true
+
+
+! Scrolling
+! =========
+URxvt.saveLines: 10000
+URxvt.scrollBar: true
+URxvt.scrollstyle: rxvt
+URxvt.scrollBar_floating: true
+URxvt.scrollColor: #aaaaaa
+URxvt.scrollBar_right: true
+URxvt.thickness: 12
+
+! Key Bindings
+! ============
+
+! Copy/Paste, same keys as gnome-terminal
+! https://stackoverflow.com/questions/39884093
+! Disable ISO 14755 unicode input so we can use Ctrl-Shift bindings
+URxvt.iso14755:        false
+URxvt.iso14755_52:     false
+! Disable Ctrl-Alt-c & Ctrl-Alt-v bindings (optional)
+URxvt.keysym.C-M-c:    builtin-string:
+URxvt.keysym.C-M-v:    builtin-string:
+! Bind Ctrl-Shift-c & Ctrl-Shift-v to copy and paste
+! I dont know why, but I needed to use hex keysym values to get it to work
+URxvt.keysym.C-S-0x43: eval:selection_to_clipboard
+URxvt.keysym.C-S-0x56: eval:paste_clipboard
+!
+URxvt.keysym.Home: \033[H
+URxvt.keysym.End:  \033[F
+
+! match vte/xterm
+URxvt.keysym.Control-Up:    \033[1;5A
+URxvt.keysym.Control-Down:  \033[1;5B
+URxvt.keysym.Control-Left:  \033[1;5D
+URxvt.keysym.Control-Right: \033[1;5C
+
+! clear the scrollback
+URxvt.keysym.Control-l: command:\033c
+
+! scale fonts
+URxvt.keysym.C-S-plus: font-size:increase
+URxvt.keysym.C-KP_Add: font-size:increase
+URxvt.keysym.C-S-underscore: font-size:decrease
+URxvt.keysym.C-KP_Subtract: font-size:decrease
+URxvt.keysym.C-0: font-size:reset
+URxvt.keysym.C-KP_0: font-size:reset
+
+! Theme/Colors
+! ============
+
+URxvt.fading: 0
+
+URxvt.cursorColor: #AAAAAA
+URxvt.cursorBlink: 1
+URxvt.cursorUnderline: 1
+
