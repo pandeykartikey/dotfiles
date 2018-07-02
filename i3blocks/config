@@ -24,9 +24,15 @@
 #
 # The top properties below are applied to every block, but can be overridden.
 # Each block command defaults to the script name to avoid boilerplate.
-command=/usr/share/i3blocks/$BLOCK_NAME
+command=/usr/lib/i3blocks/$BLOCK_NAME
 #separator_block_width=15
 markup=none
+
+full_text=〉
+align=center
+color=#666666
+separator=false
+separator_block_width=7
 
 # Volume indicator
 #
@@ -41,8 +47,8 @@ instance=Master
 interval=once
 signal=10
 color=#c9c9ff
-
 # Memory usage
+[bar/mybar]
 #
 # The type defaults to "mem" if the instance is not specified.
 [memory]
@@ -51,7 +57,7 @@ label=MEM
 color=#dfe3ee
 #command=free | grep Mem | awk '{printf "%.3fGB", ($3+$5)/1024/1024}END{print "/8GB"}'
 interval=30
-
+[separator]
 [memory]
 label=SWAP
 instance=swap
@@ -69,7 +75,7 @@ label=HOME
 #instance=/mnt/data
 interval=30
 color=#d9534f
-
+[separator]
 # Network interface monitoring
 #
 # If the instance is not specified, use the interface used for default route.
@@ -98,11 +104,11 @@ interval=10
 #interval=10
 #color=#00FF00
 #separator=false
-
+[separator]
 [bandwidth]
 #instance=eth0
 interval=5
-
+[separator]
 # CPU usage
 #
 # The script may be called with -w and -c switches to specify thresholds,
@@ -116,7 +122,7 @@ color=#00FF00
 
 #[load_average]
 #interval=10
-
+[separator]
 # Battery indicator
 #
 # The battery instance defaults to 0.
@@ -126,14 +132,14 @@ label=⚡
 #instance=1
 interval=30
 color=#8300FE
-
+[separator]
 # Date Time
 #
 [time]
 command=date '+%Y-%m-%d %H:%M:%S'
 interval=5
 color=#EB00FF
-
+[separator]
 # Generic media player support
 #
 # This displays "ARTIST - SONG" if a music is playing.

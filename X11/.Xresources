@@ -21,11 +21,16 @@ URxvt.termName: xterm-256color
 URxvt.perl-ext-common: default,matcher,resize-font,selection-to-clipboard,font-size
 
 URxvt.url-launcher: /usr/bin/xdg-open
-
+URxvt.matcher.rend.0: Uline Bold fg5
+URxvt.colorUL: #4682B4
 URxvt.matcher.button: 1
-
-
-*background: #000000
+URxvt*depth: 32
+URxvt*background: #000000
+URxvt*fading: 40
+URxvt*.fadeColor: #000000
+urxvt*transparent: true
+urxvt*shading: 40
+!background: #000000
 
 *foreground: #ffffff
 
@@ -111,13 +116,15 @@ URxvt.allow_bold: true
 ! Scrolling
 ! =========
 URxvt.saveLines: 10000
-URxvt.scrollBar: true
+URxvt.scrollBar: false
 URxvt.scrollstyle: rxvt
 URxvt.scrollBar_floating: true
 URxvt.scrollColor: #aaaaaa
 URxvt.scrollBar_right: true
 URxvt.thickness: 12
-
+URxvt*scrollTtyOutput: false
+URxvt*scrollWithBuffer: true
+URxvt*scrollTtyKeypress: true
 ! Key Bindings
 ! ============
 
