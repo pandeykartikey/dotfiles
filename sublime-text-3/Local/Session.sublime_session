@@ -1,0 +1,410 @@
+{
+	"folder_history":
+	[
+		"/home/d3xt3r/Documents/Projects/SDSLabs/scripts",
+		"/home/d3xt3r/Documents/Projects/SDSLabs/jinora",
+		"/home/d3xt3r/Documents/Projects/Personal/awesome-blogs",
+		"/home/d3xt3r/Documents/Projects/Personal/dotfiles",
+		"/home/d3xt3r/Documents/Projects/SDSLabs/cerebro",
+		"/home/d3xt3r/Documents/ctf"
+	],
+	"last_version": 3176,
+	"last_window_id": 18,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 731.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 392.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"mark",
+						"Markdown Preview: Preview in Browser"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"pack",
+						"Package Control: Install Package"
+					],
+					[
+						"pa",
+						"Package Control: Install Package"
+					],
+					[
+						"pac",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 497.0
+			},
+			"console":
+			{
+				"height": 157.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/d3xt3r/Documents/Projects/SDSLabs/jinora/node_modules/slack-utils/api.js",
+				"/home/d3xt3r/Documents/Projects/Personal/awesome-blogs/README.md",
+				"/home/d3xt3r/Documents/Projects/SDSLabs/cerebro/src/styles/modules/_all.scss",
+				"/home/d3xt3r/Documents/Projects/SDSLabs/cerebro/src/styles/modules/_competitions.scss",
+				"/home/d3xt3r/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+				"/home/d3xt3r/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/d3xt3r/.config/sublime-text-3/Packages/User/Side Bar.sublime-settings",
+				"/home/d3xt3r/.config/sublime-text-3/Packages/User/Package Control.sublime-settings"
+			],
+			"find":
+			{
+				"height": 27.0
+			},
+			"find_in_files":
+			{
+				"height": 108.0,
+				"where_history":
+				[
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"slack",
+					"list",
+					"connect.limit"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 27.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.SublimeLinter":
+			{
+				"height": 0.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 50.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 212.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1366.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 392.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"mark",
+						"Markdown Preview: Preview in Browser"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"pack",
+						"Package Control: Install Package"
+					],
+					[
+						"pa",
+						"Package Control: Install Package"
+					],
+					[
+						"pac",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 497.0
+			},
+			"console":
+			{
+				"height": 157.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/d3xt3r/Documents/Projects/SDSLabs/scripts",
+				"/home/d3xt3r/Documents/Projects/SDSLabs/scripts/backup"
+			],
+			"file_history":
+			[
+				"/home/d3xt3r/Documents/Projects/SDSLabs/scripts/backup/sample.blob_config.txt",
+				"/home/d3xt3r/Documents/Projects/SDSLabs/scripts/.gitignore",
+				"/home/d3xt3r/Documents/Projects/SDSLabs/scripts/backup/blob_backup.sh",
+				"/home/d3xt3r/Documents/Projects/SDSLabs/scripts/backup/blob_config.txt",
+				"/home/d3xt3r/Documents/Projects/SDSLabs/jinora/node_modules/slack-utils/api.js",
+				"/home/d3xt3r/Documents/Projects/Personal/awesome-blogs/README.md",
+				"/home/d3xt3r/Documents/Projects/SDSLabs/cerebro/src/styles/modules/_all.scss",
+				"/home/d3xt3r/Documents/Projects/SDSLabs/cerebro/src/styles/modules/_competitions.scss",
+				"/home/d3xt3r/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+				"/home/d3xt3r/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/d3xt3r/.config/sublime-text-3/Packages/User/Side Bar.sublime-settings",
+				"/home/d3xt3r/.config/sublime-text-3/Packages/User/Package Control.sublime-settings"
+			],
+			"find":
+			{
+				"height": 42.0
+			},
+			"find_in_files":
+			{
+				"height": 108.0,
+				"where_history":
+				[
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"bot"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/d3xt3r/Documents/Projects/SDSLabs/scripts"
+				}
+			],
+			"groups":
+			[
+				{
+					"sheets":
+					[
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 27.0
+			},
+			"input":
+			{
+				"height": 40.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.SublimeLinter":
+			{
+				"height": 0.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,0,37,1366,768,1366,768",
+			"project": "",
+			"replace":
+			{
+				"height": 50.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 212.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 18,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

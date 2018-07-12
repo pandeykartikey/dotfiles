@@ -1,0 +1,31 @@
+{
+	"bootstrapped": true,
+	"color_scheme": "Packages/Theme - Brogrammer/brogrammer.tmTheme",
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"All Autocomplete",
+		"AutoFileName",
+		"Babel",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"DocBlockr",
+		"EditorConfig",
+		"Emmet",
+		"Git",
+		"GitGutter",
+		"MarkdownPreview",
+		"Package Control",
+		"Sass",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SyntaxHighlightTools",
+		"Theme - Brogrammer"
+	],
+	"theme": "Brogrammer.sublime-theme",
+	"update_check": false
+}

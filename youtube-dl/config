@@ -1,0 +1,6 @@
+-x
+--audio-quality 0
+-f bestaudio
+-w
+--download-archive ~/Songs/archive.txt
+-o ~/Songs/%(title)s.%(ext)s
