@@ -2,7 +2,8 @@
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/Theme - Brogrammer/brogrammer.tmTheme",
 	"fade_fold_buttons": false,
-	"font_size": 8,
+	"font_face": "Roboto",
+	"font_size": 11,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -10,6 +11,5 @@
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
-	"theme": "Adaptive.sublime-theme",
-	"update_check": false
+	"theme": "Brogrammer.sublime-theme"
 }

@@ -90,7 +90,7 @@ URxvt.font: xft:Hack-Regular:pixelsize=14.5
 
 URxvt.boldFont: xft:Hack-Regular:pixelsize=14.5
 
-URxvt.letterSpace: -2
+URxvt.letterSpace: -1
 
 URxvt.resize-font.smaller: C-Down
 

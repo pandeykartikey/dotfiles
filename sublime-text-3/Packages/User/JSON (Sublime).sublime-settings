@@ -1,4 +1,2 @@
 // These settings override both User and Default settings for the JSON (Sublime) syntax
-{
-	"update_check": false
-}
+

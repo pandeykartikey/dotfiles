@@ -22,8 +22,8 @@ eval `dircolors ~/.config/ls_color/ls.color`
 
 alias install="sudo pacman -S"
 alias update="sudo pacman -Syu"
-alias yinstall="yaourt -S"
-alias yupdate="yaourt -Syu"
+alias ainstall="aurman -S"
+alias aupdate="aurman -Syu"
 alias ida32="wine ~/.wine/drive_c/Program\ Files\ \(x86\)/IDA\ 6.8/idaq.exe"
 alias ida64="wine ~/.wine/drive_c/Program\ Files\ \(x86\)/IDA\ 6.8/idaq64.exe"
 alias feh="feh --scale-down"
@@ -59,4 +59,11 @@ export NVM_DIR="$HOME/.nvm"
 
 export PATH=$PATH:/usr/local/go/bin
 
-alias downloadsong="youtube-dl YOUTUBE_URL" 
+alias downloadsong="youtube-dl https://www.youtube.com/playlist?list=PLUE0cRdE8qNSyrvyMdkNoJ1ggVcaw-p_H&disable_polymer=true"
+
+alias play="vlc ~/Songs/* &"
+alias wallpaper="wget --directory-prefix=/home/d3xt3r/Wallpapers/"
+
+# added by Anaconda3 installer
+export PATH="$PATH:/home/d3xt3r/anaconda3/bin"
+. /home/d3xt3r/anaconda3/etc/profile.d/conda.sh
