@@ -1,9 +1,10 @@
 {
+	"auto_complete": false,
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/Theme - Brogrammer/brogrammer.tmTheme",
 	"fade_fold_buttons": false,
 	"font_face": "Roboto",
-	"font_size": 11,
+	"font_size": 16,
 	"highlight_line": true,
 	"ignored_packages":
 	[

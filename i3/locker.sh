@@ -31,7 +31,7 @@ i3lock \
 	--ringvercolor=$foreground --ringwrongcolor=$foreground --indpos="x+280:h-70" \
 	--radius=20 --ring-width=4 --veriftext="" --wrongtext="" \
 	--verifcolor="$foreground" --timecolor="$foreground" --datecolor="$foreground" \
-	--noinputtext="" --force-clock -n
+	--noinputtext=""
 
 # Turn the screen off after a delay.
 sleep 30

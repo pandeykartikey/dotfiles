@@ -14,7 +14,10 @@
 		"Color Highlighter",
 		"DocBlockr",
 		"EditorConfig",
+		"EJS 2",
 		"Emmet",
+		"Ethereum",
+		"EthereumSoliditySnippets",
 		"FontCycler",
 		"Git",
 		"GitGutter",
@@ -25,6 +28,7 @@
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SyntaxHighlightTools",
+		"TabNine",
 		"Theme - Brogrammer"
 	],
 	"theme": "Brogrammer.sublime-theme",
