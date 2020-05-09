@@ -1,4 +1,4 @@
-rofi.combi-modi:    window,drun,ssh
+rofi.combi-modi:    window,drun
 rofi.theme:         material
 rofi.font:          hack 8
 rofi.modi:          combi

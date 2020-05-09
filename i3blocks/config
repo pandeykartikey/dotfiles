@@ -24,7 +24,7 @@
 #
 # The top properties below are applied to every block, but can be overridden.
 # Each block command defaults to the script name to avoid boilerplate.
-command=/usr/lib/i3blocks/$BLOCK_NAME
+command=/home/d3xt3r/.config/i3blocks/scripts/$BLOCK_NAME
 #separator_block_width=15
 markup=none
 
@@ -39,13 +39,13 @@ separator_block_width=7
 # The first parameter sets the step (and units to display)
 # The second parameter overrides the mixer selection
 # See the script for details.
-[volume]
+[volume-pulseaudio]
 #label=VOL
 label=♪
-instance=Master
+#instance=Master
 #instance=PCM
 interval=once
-signal=10
+signal=11
 color=#c9c9ff
 # Memory usage
 [bar/mybar]
@@ -123,15 +123,15 @@ color=#00FF00
 #[load_average]
 #interval=10
 [separator]
+
 # Battery indicator
 #
 # The battery instance defaults to 0.
-[battery]
-#label=BAT
-label=⚡
-#instance=1
+[battery2]
+markup=pango
 interval=30
 color=#8300FE
+
 [separator]
 # Date Time
 #
@@ -145,7 +145,7 @@ color=#EB00FF
 # This displays "ARTIST - SONG" if a music is playing.
 # Supported players are: spotify, vlc, audacious, xmms2, mplayer, and others.
 [mediaplayer]
-instance=spotify
+instance=spotify,vlc
 interval=5
 signal=10
 

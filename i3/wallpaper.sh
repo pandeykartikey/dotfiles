@@ -2,6 +2,6 @@
 set -e
 while :
 do
-	feh --recursive --randomize --bg-fill ~/Wallpapers/
+	feh --recursive --randomize --bg-scale ~/Wallpapers/
 	sleep 600
 done
