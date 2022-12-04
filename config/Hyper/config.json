@@ -1,0 +1,14 @@
+{
+	"windowPosition": [
+		3072,
+		47
+	],
+	"windowSize": [
+		2560,
+		1393
+	],
+	"hyper": {
+		"plugins": "{\"plugins\":[\"hyper-pane\"],\"localPlugins\":[]}",
+		"plugin-versions": "[[\"hyper-pane\",\"2.1.5\"]]"
+	}
+}
