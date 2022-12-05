@@ -77,7 +77,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git fzf zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -114,8 +114,10 @@ alias ls="exa"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-case "$OSTYPE" in 
-  darwin*)
+# OS casing logic taken from powershell10k
+local uname="$(uname)"
+case $uname in
+  Darwin)
     # Add Visual Studio Code (code)
     export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
     source <(kubectl completion zsh)
@@ -139,21 +141,29 @@ case "$OSTYPE" in
       fi
     fi
   ;;
-  linux*)
-    source /usr/share/doc/fzf/examples/key-bindings.zsh
-    source /usr/share/doc/fzf/examples/completion.zsh
-  ;;
-  arch*)
-    source /usr/share/fzf/key-bindings.zsh
-    source /usr/share/fzf/completion.zsh
+  Linux)
+    local os_release_id
+    if [[ -r /etc/os-release ]]; then
+      local lines=(${(f)"$(</etc/os-release)"})
+      lines=(${(@M)lines:#ID=*})
+      (( $#lines == 1 )) && os_release_id=${lines[1]#ID=}
+    elif [[ -e /etc/artix-release ]]; then
+      os_release_id=artix
+    fi
+    case $os_release_id in
+      *arch*|*manjaro*)
+        alias ua-drop-caches='sudo paccache -rk3; yay -Sc --aur --noconfirm'
+        alias ua-update-all='export TMPFILE="$(mktemp)"; \
+            sudo true; \
+            rate-mirrors --save=$TMPFILE manjaro --max-delay=21600 \
+              && sudo mv /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist-backup \
+              && sudo mv $TMPFILE /etc/pacman.d/mirrorlist \
+              && ua-drop-caches \
+              && yay -Syyu --noconfirm'
+      ;;
+      *ubuntu*)
+      ;;
 
-    alias ua-drop-caches='sudo paccache -rk3; yay -Sc --aur --noconfirm'
-    alias ua-update-all='export TMPFILE="$(mktemp)"; \
-        sudo true; \
-        rate-mirrors --save=$TMPFILE manjaro --max-delay=21600 \
-          && sudo mv /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist-backup \
-          && sudo mv $TMPFILE /etc/pacman.d/mirrorlist \
-          && ua-drop-caches \
-          && yay -Syyu --noconfirm'
+    esac
   ;;
 esac
