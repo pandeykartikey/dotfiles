@@ -162,6 +162,9 @@ case $uname in
               && yay -Syyu --noconfirm'
       ;;
       *ubuntu*)
+        export GEM_HOME=~/.ruby/
+        export PATH="$PATH:~/.ruby/bin:~/.local/bin"
+        export AWS_PROFILE=JarvisDeveloper-029452902223
       ;;
 
     esac
