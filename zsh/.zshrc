@@ -114,6 +114,10 @@ alias ls="exa"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+export PATH="$PATH:~/.local/bin"
+
+export AWS_PROFILE=JarvisDeveloper-029452902223
+
 # OS casing logic taken from powershell10k
 local uname="$(uname)"
 case $uname in
@@ -125,21 +129,8 @@ case $uname in
     [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
     # Created by `pipx` on 2022-08-17 09:17:51
-    export PATH="$PATH:/Users/kartikey/.local/bin"
     export PATH="/usr/local/opt/curl/bin:$PATH"
 
-
-
-    _AWS_SSO_UTIL_COMPLETE_SCRIPT_DIR=~/.local/share/aws-sso-util
-    _AWS_SSO_UTIL_COMPLETE_SCRIPT=$_AWS_SSO_UTIL_COMPLETE_SCRIPT_DIR/complete.sh
-    if which aws-sso-util > /dev/null; then
-      mkdir -p $_AWS_SSO_UTIL_COMPLETE_SCRIPT_DIR
-      ({ _AWS_SSO_UTIL_COMPLETE=source_bash aws-sso-util > $_AWS_SSO_UTIL_COMPLETE_SCRIPT.tmp ;
-        mv $_AWS_SSO_UTIL_COMPLETE_SCRIPT.tmp $_AWS_SSO_UTIL_COMPLETE_SCRIPT; } &)
-      if [ -f $_AWS_SSO_UTIL_COMPLETE_SCRIPT ]; then
-        source $_AWS_SSO_UTIL_COMPLETE_SCRIPT
-      fi
-    fi
   ;;
   Linux)
     local os_release_id
@@ -163,8 +154,7 @@ case $uname in
       ;;
       *ubuntu*)
         export GEM_HOME=~/.ruby/
-        export PATH="$PATH:~/.ruby/bin:~/.local/bin"
-        export AWS_PROFILE=JarvisDeveloper-029452902223
+        export PATH="$PATH:~/.ruby/bin"
       ;;
 
     esac
